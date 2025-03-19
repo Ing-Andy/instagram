@@ -1,0 +1,41 @@
+.AsideAcceuil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 300px;
+    height: 100%;
+    padding-right: 10px;
+    font-size: small;
+    font-weight: 800;
+    /* position: fixed; */
+}
+.SuggesionAsideAcceuil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    /* padding-left: 10px; */
+    /* border: 1px solid #fff; */
+}
+.SuggesionAsideAcceuil p{
+    /* margin-left: 10px; */
+    /* margin-right: 100%; */
+}
+.voirtout{
+    text-decoration: none;
+    color: white;
+}
+.ListeAsideAcceuil{
+    list-style: none;
+}
+
+/* Footer of aside Acceuil */
+.FooterAsideAcceuil{
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.FooterAsideAcceuil *{
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}

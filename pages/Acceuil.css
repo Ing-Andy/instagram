@@ -1,0 +1,56 @@
+.Acceuil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.MainAcceuil{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 10px 30px;
+    /* border: 1px solid #fff; */
+    overflow: hidden;
+}
+.section1, .section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+.headerSug{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.listeSug{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+}
+.listeSug li{
+    margin: 5px 10px;
+}
+.ToutVoirSug{
+    text-decoration: none;
+    color: blue;
+}
+.listePost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    margin-left: -41px;
+}

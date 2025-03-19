@@ -1,0 +1,48 @@
+.Miniprofile{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    width: 300px;
+    height: 70px;
+    /* border: 1px solid #fff; */
+}
+.Miniprofile .image{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-grow: 1;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 10px;
+    overflow: hidden;
+}
+.Miniprofile .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 70%;
+    flex-grow: 1;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    /* border: 1px solid #ffffff; */
+}
+.Miniprofile .name p{
+    margin-bottom: 0px;
+}
+.Miniprofile .name h5{
+    margin-top: 0px;
+    color: rgb(199, 199, 199);
+}
+.Divbasculer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basculer{
+    text-decoration: none;
+    color: #00f;
+}
+/* .Miniprofile{}
+.Miniprofile{} */

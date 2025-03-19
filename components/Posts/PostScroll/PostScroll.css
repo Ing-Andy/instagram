@@ -1,0 +1,33 @@
+.post{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px rgba(200, 200, 200, .5);
+}
+.post header{
+    padding: 5px 15px 0px 0px;
+}
+.objetPost{
+    display: flex;
+    height: 400px;
+}
+.iconePost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 5px;
+    margin-bottom: 0;
+}
+.postnblike{
+    padding-left: 5px;
+    margin: 0;
+    /* border: 1px solid #fff; */
+    /* padding: 0; */
+}
+.postComment{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 50px;
+    margin-top: 0px;
+}

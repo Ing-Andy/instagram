@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+    justify-content: space-between;
+}
+.contenueApp{
+    width: calc(100% - 18%);
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

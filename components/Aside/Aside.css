@@ -1,0 +1,27 @@
+.Aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    position: fixed;
+    border-right: .5px solid rgba(255, 255, 255, .4);
+    width: 18%;
+}
+.AsideListe li{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 15px 0px;
+}
+.AsideListe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+.nav-link{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    padding-top: 0;
+}
