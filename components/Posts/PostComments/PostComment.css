@@ -1,9 +1,10 @@
 .PostComment{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-color: transparent;
-    overflow: hidden;
+    flex-grow: 1;   
     display: flex;
+    overflow: hidden;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
 }
@@ -11,13 +12,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 600px;
     height: 500px;
     overflow-y: hidden;
     border: 1px solid #ff0;
 }
 .postComment1{
-    width: 40%;
+    width: 50%;
     flex-grow: 1;
 }
 .postComment2{

@@ -12,7 +12,7 @@ export default function Comments({name,picture,comments}) {
             <span className='commentComment'>{name}</span>
             <p className='pcomment'>{comments}</p>
         </div>
-        <div>
+        <div className='heart'>
             <Heart />
         </div>
     </div>

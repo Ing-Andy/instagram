@@ -1,57 +1,10 @@
-/* .blocComment{
-    display: flex;
-    color: wheat;
-    overflow: hidden;
-    justify-content: center;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 0px 3px 0px rgba(200, 200, 200, 1);
-}   
-.headerPost{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    margin-top: 5px;
-    padding-right: 5px;
-}
-.divList{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 10;
-    border: 1px solid #f0f;
-}
-
-
-.listComment{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow-y:scroll ;
-    scrollbar-width: none;
-    list-style: none;
-    padding: 0;
-    width: 100%;
-    height: 320px;
-    border: 1px solid #ff0;
-}
-.listComment li{
-    margin: 2px 5px;
-    height: 70px;
-} */
 .blocComment{
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     border: 1px solid #0ff;
-    padding: 0;
+    padding: 0;    
 }
 .blocComment2{
     display: flex;
@@ -63,10 +16,85 @@
 .headerPost{
     height: 100%;
     width: 100%;
+    /* border: 1px solid #ff0; */
 }
 .divList{
     display: flex;
     flex-direction: column;
-    background-color: #f0f;
-    height: 350px;
+    align-items: start;
+    justify-content: start;
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid #f00; */
+    padding: 0;
+    margin: 0;
+}
+.listComment{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: start;
+    scrollbar-width: none;
+    align-items: center;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid #0ff;      */}
+.listComment li{
+    margin: 15px 5px;
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid #f00; */
+    margin: 5px 0px 5px 0px;}
+.footerComment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+}
+.iconePost{
+    border: 1px solid #f00;
+    margin-top: 0;
+    padding: 0;
+    /* top: 0; */
+    width: 100%;
+}
+.postnblike{
+    text-align: start;
+    width: 100%;
+}
+.Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monicone{
+    border: 1px solid #0ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+#InputText{
+    width: 200px;
+    height: 35px;
+    border: 1px solid #df0;
+    overflow-y: scroll;
+    outline: none;
+}
+.sticker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 5px;
 }
