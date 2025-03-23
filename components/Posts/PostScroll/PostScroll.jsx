@@ -29,7 +29,7 @@ export default function PostScroll({picture,name,nameEmail,post,nblike,isComment
             <div><ArrowUpRightFromSquareIcon/></div>
           </p>
           <p className='postnblike'>{nblike}</p>
-          <p className='postComment'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fugiat tempore nam cumque harum? Repudiandae recusandae quam suscipit vero natus.</p>
+          <p className='postCommentText'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates fugiat tempore nam cumque harum? Repudiandae recusandae quam suscipit vero natus.</p>
         </footer>
     </div>
   )

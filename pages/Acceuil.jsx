@@ -19,7 +19,7 @@ export default function Acceuil() {
 ]
   return (
     <div className='Acceuil'>
-      {iscomment && <PostComment />}
+      {iscomment && <div className='Yesss'><PostComment /></div>}
         <main className='MainAcceuil'>
           <section className="section1">
             <p className='headerSug'><span>suggestion pour vous </span><NavLink to className="ToutVoirSug"> tout voir</NavLink> </p>
@@ -30,7 +30,7 @@ export default function Acceuil() {
             </ul>
           </section>
           <section className="section2">
-            <ul className="listePost">
+            <ul className="listePostScroll">
               {SuggestionData1.map((el,index) => (
                 <li key={index}><PostScroll picture={el.picture} name={el.name} friendName={el.Friendname} friendPicture={el.friendpicture} nblike="299 j'aime" isComment={iscomment} setIsComment={setIscomment}/></li>
               ))}

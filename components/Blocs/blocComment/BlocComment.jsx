@@ -40,7 +40,7 @@ export default function BlocComment(picture,name,nameEmail,width) {
                 </ul>
             </div>
             <div className='footerComment'>
-                <div className='iconePost'>
+                <div className='IconePost'>
                     <div style={{width:'100px',display:'flex',justifyContent:'space-around'}}><span><Heart/></span><label htmlFor="InputText"><MessageCircle/></label><NavLink><PlaneIcon/></NavLink></div>
                     <div><ArrowUpRightFromSquareIcon/></div>
                 </div>

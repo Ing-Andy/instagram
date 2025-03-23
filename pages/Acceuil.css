@@ -44,7 +44,7 @@
     text-decoration: none;
     color: blue;
 }
-.listePost{
+.listePostScroll{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,4 +53,17 @@
     width: 100%;
     list-style: none;
     margin-left: -41px;
+}
+.listePostScroll li{
+    margin-bottom: 20px;
+}
+.Yesss{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
 }
