@@ -1,0 +1,12 @@
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.AsideApp{
+    width: 20%;
+}
+.contenueApp{
+    width: 80%;
+    padding-left: 0;
+}

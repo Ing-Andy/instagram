@@ -1,21 +1,20 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Acceuil from '../pages/Acceuil'
-import Aside from '../components/Aside/Aside'
+import Login from '../pages/log/Login'
+import { BrowserRouter, Routes, Route ,Navigate } from 'react-router-dom'
+import Protected from '../Api/Protected'
+import Page from './Page'
 
-export default function App() {
+export default function App(){
   return (
     <BrowserRouter>
-      <div className='App'>
-          <div><Aside /></div>
-        <div className='contenueApp'>
-          <Routes>
-            <Route path='/' element={<Acceuil />} />
-            {/* <Route path='/postComment' element={<PostComment />} /> */}
-          </Routes>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<Navigate to="/login" />} />
+        <Route path='/login' element={<Login />}/>
+        <Route element={<Protected/>}>
+          <Route path='/page/*' element={<Page />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   )
 }

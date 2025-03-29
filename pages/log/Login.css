@@ -1,0 +1,62 @@
+.Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.LoginContainer{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: space-around;
+    box-shadow: 0px 0px 10px 0px #999;
+}
+.LoginContainerInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+#Email{
+    width: 20%;
+    transition: width .8s ease-in-out;
+    outline: blue;
+}
+#Email:hover{
+    width: 80%;
+}
+#Passsword{
+    width: 20%;
+    transition: width .8s ease-in-out;
+    outline: none;
+}
+#Passsword:hover{
+    width: 80%  ;
+}
+.para{
+    text-align: center;
+    padding-right: 20px;
+    margin-left: -20px;
+}
+.LoginContainerButton{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.params{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /* border: 1px solid #0ff; */
+}
+.lien{
+    background-color: transparent;
+    border: none;
+    padding-top: 5px;
+    transition: color .5s ease-in-out;
+}
+.lien:hover{
+    color: white;
+}

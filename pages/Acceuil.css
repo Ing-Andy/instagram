@@ -36,6 +36,7 @@
     scrollbar-width: none;
     margin: 0;
     padding: 0;
+    padding-left: 0;
 }
 .listeSug li{
     margin: 5px 10px;
